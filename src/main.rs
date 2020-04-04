@@ -29,7 +29,7 @@ fn main() {
         },
     };
 
-    let path = Path::new("out.html");
+    let path = Path::new(args[2].as_str());
     let mut file = match File::create(&path) {
         Err(err) => panic!("couldn't create file"),
         Ok(file) => file,
