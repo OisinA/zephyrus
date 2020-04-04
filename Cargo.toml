@@ -1,0 +1,5 @@
+[package]
+name = "zephyrus"
+version = "0.1.0"
+authors = ["OisinA"]
+edition = "2018"
